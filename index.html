@@ -6,70 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+    </style> 
 </head>
 <body>
-    <div class="dark">
-    <header>
-        <div class="section margin-pad">
-            <img src="" alt="" class="img-logo">
-        </div>
-        <div id="header-links" class="section margin-pad">
-            <ul>
-                <li><a href="#">header link one</a></li>
-                <li><a href="#">header link two</a></li>
-                <li><a href="#">header link three</a></li>
-            </ul>
+    <header class="dark">
+        <div class="pad">
+            <nav class="section space-between">
+                <img class="img-logo" src="https://www.skillfinder.com.au/media/wysiwyg/the-odin-project-logo-skill-finder-partners-page.png" alt="logo">
+                <div id="header-links" class="subtext">
+                    <ul>
+                        <li><a href="#">header link one</a></li>
+                        <li><a href="#">header link two</a></li>
+                        <li><a href="#">header link three</a></li>
+                    </ul>
+                </div> 
+            </nav>
+            <div class="section space-between text-logo">
+                <div class="header-card align-left">
+                    <h1 class="h2-width">This website is awesome</h1>
+                    <p class="h2-width subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                    <button class="blue border">Sign up</button>
+                </div>
+                <img class="img-wide" src="https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="image of code">
+            </div>
         </div>
     </header>
     <main>
-        <div class="section margin-pad space-between">
-            <div class="elm-caption">
-                <h1 class="h2-width">This website is awesome</h1>
-                <p class="h2-width subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button class="blue">Sign up</button>
-            </div>
-            <img src="" alt="" class="img-wide">
-        </div>
-    </div>
-        <div class="margin-pad center">
-            <h2>Some random information.</h2>
-            <div class="section center content-row">
+        <div class="pad">
+            <h2 class="center">Some random information.</h2>
+            <div class="content-row">
                 <div class="elm-caption">
-                    <img src="" alt="" class="img-square border">
-                    <p class="img-caption img-square subtext">this is some subtext under an illustration of image</p>
+                    <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_256.png" alt="html5 logo" class="img-square">
+                    <p class="img-caption subtext">this is some subtext under an illustration or image</p>
                 </div>
                 <div class="elm-caption">
-                    <img src="" alt="" class="img-square border">
-                    <p class="img-caption img-square subtext">this is some subtext under an illustration of image</p>
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="css logo" class="img-square">
+                    <p class="img-caption subtext">this is some subtext under an illustration or image</p>
                 </div>
                 <div class="elm-caption">
-                    <img src="" alt="" class="img-square border">
-                    <p class="img-caption img-square subtext">this is some subtext under an illustration of image</p>
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" alt="javascript logo" class="img-square">
+                    <p class="img-caption subtext">this is some subtext under an illustration or image</p>
                 </div>
                 <div class="elm-caption">
-                    <img src="" alt="" class="img-square border">
-                    <p class="img-caption img-square subtext">this is some subtext under an illustration of image</p>
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/github-163-761603.png" alt="github logo" class="img-square">
+                    <p class="img-caption subtext">this is some subtext under an illustration or image</p>
                 </div>
             </div>
         </div>
         <div class="section">
             <div class="quote-block">
-                <div class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
-                <div class="quote-credit">-Thor, God of Thunder</div>
+                <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+                <p class="quote-credit">-Thor, God of Thunder</p>
             </div>
         </div>
         <div class="section center">
             <div class="content-wide blue border space-between">
                 <div class="align-left">
-                    <div><strong>Call to action! It's time!</strong></div>
+                    <h3 class="bold"><strong>Call to action! It's time!</strong></h3>
                     <p class="subtext">Sign up for our product by clicking that button right over there!</p>
                 </div>
-                <button class="white-outline">Sign up</button>
+                <button class="border white-outline">Sign up</button>
             </div>
         </div>
     </main>
     <footer class="dark">
-        <div>Copyright © The Odin Project 2021</div>
+        <p>Copyright © The Odin Project 2021</p>
     </footer>
 </body>
 </html>
